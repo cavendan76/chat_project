@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.contactos {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  border-style: none none solid none;
+  border-color: #bec1bb;
+  border-width: 1px;
+  height: 100px;
+  justify-content: space-evenly;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.perfil_info {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.perfil_img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.perfil_texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.perfil_nombre {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.perfil_estado {
+  font-size: 12px;
+  margin: 0;
+  color: #bec1bb;
+}
+
+.perfil_icono {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.icono {
+  font-size: 20px;
+  color: #bec1bb;
+  gap: 20px 5px;
+}
+
+.contactos_boton {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  border-style: none none solid none;
+  border-color: #bec1bb;
+  border-width: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.boton {
+  background-color: #A491D2;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  border: none;
+}
+
+.contacto_img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.contactos_info {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  border-style: none none solid none;
+  border-color: #bec1bb;
+  border-width: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contactos_texto {
+  margin-left: 16px;
+}
+
+.contactos_texto_estado {
+  font-size: 12px;
+  margin: 0;
+}
+
+.principal {
+  width: 80%;
+  background-color: #E8EBE4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.principal_contentido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.principal_contentido_texto1 {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 400;
+  height: 10px;
+}
+
+.principal_contentido_img {
+  width: 250px;
+  height: 250px;
+}
